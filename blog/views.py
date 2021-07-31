@@ -12,8 +12,7 @@ def index(request):
         {
             'posts': posts,
         }
-    )
-
+    )    
 
 def single_post_page(request, pk):
     post = Post.objects.get(pk=pk)
